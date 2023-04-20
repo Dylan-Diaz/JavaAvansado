@@ -1,0 +1,16 @@
+.formD{
+    margin: 5% 20%;
+    border: solid black 2px;
+    border-radius: 7px ;
+    padding: 4%;
+    background-color: rgb(242, 242, 242);
+}
+.h1{
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.boton{
+    margin-left: 45%;
+    margin-top: 2%;
+}
