@@ -34,4 +34,18 @@ El label y el input de la primera etiqueta div class=mb-3 indique al usuario su 
 
 
 
+# Evidencia dia 7/5/2023
+
+# proyect-two
+
+# Dylan Diaz ficha: 2687351
+
+#Descripcion:
+
+En este proyecto complementamos los formularios de login y registro de nuestra app con las clases en java para conectarnos a la base de datos.Creamos 4 diferentes tipos de conectores en la carpeta util y 2 clases Use para poder ejecutar el codigo de la base de datos Mysql desde la app.En cada clase Connection utilizamos la clase main y ingresamos el usuario y la contraseña de la base de datos para poder acceder a ella.
+
+En el servidor de base de datos creamos una nueva base llamada "my_app" y creamos una tabla llamada "users_tbl", en esta tabla creamos 5 atributos los cuales son: user_id(esta es la llave primaria), user_firstname, user_lastname, user_email y user_password, los atributos que solicitamos en las clases de la carpeta util son user_firstname y user_lastname. 
+
+
+
 
