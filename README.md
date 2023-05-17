@@ -47,5 +47,84 @@ En este proyecto complementamos los formularios de login y registro de nuestra a
 En el servidor de base de datos creamos una nueva base llamada "my_app" y creamos una tabla llamada "users_tbl", en esta tabla creamos 5 atributos los cuales son: user_id(esta es la llave primaria), user_firstname, user_lastname, user_email y user_password, los atributos que solicitamos en las clases de la carpeta util son user_firstname y user_lastname. 
 
 
+# Evidencia dia 17/05/2023
+
+# Proyect-two - Taller 5 y 6
+
+# Dylan Josue Diaz
+
+# Ficha: 2687351
+
+# Descripcion:
+
+En esta evidencia se a trabajado en las consultas CRUD desde nuestra app. Primero cree un nuevo sub-paquete en la carpeta proyecttwo que esta dentro de la carpeta java y despues cree una interfaz llamada "repository":
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/57945368-56cf-4761-a8d2-37a9d3997c42)
+
+dentro de la interfaz declare 5 objetos:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/725bb978-0442-43b4-ba61-db4820b358b9)
+
+despues cree una clase llamada "UserRepostoryImpl":
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/06525f2c-992e-49e1-9849-0e3ab13e45f6)
+
+ya dentro de la clase implemente el repositorio anterior y declare 1 atributo y los 5 metodos de la consulta sql:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/654e4ebb-4499-4501-8b21-10191e3d69d6)
+
+-El metodo LisAllObjec sirve para listar todos los registros que haya en la tabla.
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/9739633f-d96f-4ae5-a515-90d098ddba3d)
+
+-El metodo byIdObj sirve para listar todos los registros de la tabla por id.
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/33f28436-8ec6-4eb2-a16e-e21b430ecfef)
+
+-El metodo saveObj sirve para actualizar registros.
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/87f837d4-c6a0-4d03-b754-e4a8a2961e30)
+
+-El metodo deleteObj sirve para eliminar registros.
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/e3fba478-4e56-40ae-8355-fb8c4032f99e)
+
+-Por ultimo metodo createObj sirve para ingresar nuevos registros a la tabla.
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/b93a2799-defd-482c-95b0-90cef9d656bc)
+
+Despues de esto cree otra clase en el sub-paquete reporitory llamada "TestRepositoryImpl":
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/51c3d2f2-296b-4b66-8a1f-f8440c2af754)
+
+Dentro de la clase declare la clase main y cree un objeto llamado "repository":
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/d4ccd60b-bf69-496b-917a-345fd134f4bd)
+
+ahora declare cada uno de los metodos anteriores, primero declare el metodo para insertar registros (saveObj Insert):
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/a043a470-c5f0-4eee-9f92-c5ef884c2885)
+
+despues declare el metodo para listar todos los registros (listAllObj):
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/56da253f-6c2a-4411-b4b9-7ce6d4a0555b)
+
+despues declare el metodo para listar los registros por id (byIdObj):
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/5c0e9835-44e2-4022-a87f-0b0978f88ca0)
+
+despues declare el metodo para actualizar registros (saveObj):
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/9f388147-1aae-4d15-8459-f243d307c3c0)
+
+y ya por ultimo declare el metodo para eliminar registros (deleteObj):
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/d031422f-0cf5-4c65-b279-070c3ddcae79)
+
+
+
+
+
+
 
 
