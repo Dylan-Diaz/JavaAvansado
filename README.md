@@ -2,6 +2,8 @@
 
 # 2687351
 
+# proyect-one
+
 # HTML:
 
 primero indique que se estaba usando la version de HTML5 con la etiqueta DOCTYPE. Luego indique que lenguaje que se va a usar seria español con el atributo lang en la etiqueta html. Dentro del head del archivo index cree las siguentes etiquetas:
