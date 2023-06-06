@@ -124,9 +124,42 @@ y ya por ultimo declare el metodo para eliminar registros (deleteObj):
 ![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/d031422f-0cf5-4c65-b279-070c3ddcae79)
 
 
+# Evidencia 5/06/2023
 
+# proyect-two Taller 7
 
+# Dylan Josue Diaz
 
+# Ficha: 2687351
 
+# Descripcion:
 
+En esta evidencia se a trabajado en crear e implementar funcionalmente 2 nuevos objetos en el proyecto. Primero cree 2 nuevas tablas llamadas categories y product en la base de datos:
 
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/efe7372b-6856-4b66-a018-5093adf5a311)
+
+luego cree las interfaces para ingresar registros a cada una de las tablas:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/7223a840-f915-4197-9f2f-390253a5928e)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/b3f9567b-03aa-49cc-acd5-2de9373d4f55)
+
+despues empece a crear las clases beans de cada una de estas tablas:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/12d74068-a2a9-4cc9-a79e-b8f95cb2cd4b)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/71c40434-6938-49e3-bbc1-6e67c42834a6)
+
+luego cree las clases Repository de cada una de las tablas:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/f34e6eb8-9b10-4733-b037-df9be91ca48d)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/160d9fe3-5985-4206-a222-a6458b751833)
+
+por ultimo cree las clases Servlet de cada una de las tablas:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/cd7ef3d4-6ede-4c26-864d-bd3648b206a9)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/33e9692d-81a7-4bc7-8aea-d197aaa9ef3c)
+
+la interfaz de cada uno de los nuevos registros quedo completamente funcional.
