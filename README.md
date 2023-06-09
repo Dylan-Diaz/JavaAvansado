@@ -163,3 +163,53 @@ por ultimo cree las clases Servlet de cada una de las tablas:
 ![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/33e9692d-81a7-4bc7-8aea-d197aaa9ef3c)
 
 la interfaz de cada uno de los nuevos registros quedo completamente funcional.
+
+
+
+
+# Evidencia dia 09/06/2023
+
+# Proyect-two - Taller 8 y 9
+
+# Dylan Josue Diaz
+
+# Ficha: 2687351
+
+# Descripcion:
+
+En esta evidencia se a trabajado en redireccionar los links del proyecto para hacerlo mas seguro. primeramente cree en dentro de la carpeta sevlets una clase Forwarding para cada interfaz que se tiene, empesando con la vista de login:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/830c6430-6e62-421f-81c9-a5097d48979f)
+
+dentro de la clase importe todas las demas clases que se requieren:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/a6bf6df1-46f0-439a-869c-7017c4f539c6)
+
+luego use @WebServlet para nombrar la direccion:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/5f2fb9b5-75d6-4836-9b06-33b1441a2d92)
+
+despues herede la clase HttpServlrt a la clase principal:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/31e85cc9-799d-424d-8e34-79ca4de7cfe7)
+
+por ultimo implemente el metodo DoGet indicando la ubicacion en la que se encuentra el archivo:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/396cd200-b263-4316-a1d9-85909a869061)
+
+Del mismo modo cree las demas clases para cada interfaz:
+
+-RegistroForwardingServlet:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/5609eef4-966f-46ee-b86b-a7519dc4c94d)
+
+-RegistroCategoriaForwardingServlet:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/1a1dc5c7-a6e0-4a91-8ce1-7858d676fe6f)
+
+-RegistroProductoForwardingServlet:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/a55c79ca-9c69-46ea-9753-1ebc1076018c)
+
+por ultimo a cada vista le agrege el nombre de la direccion en un atributo href de la etiqueta a
+
