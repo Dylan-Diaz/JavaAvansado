@@ -199,17 +199,41 @@ por ultimo implemente el metodo DoGet indicando la ubicacion en la que se encuen
 
 Del mismo modo cree las demas clases para cada interfaz:
 
--RegistroForwardingServlet:
+- RegistroForwardingServlet:
 
 ![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/5609eef4-966f-46ee-b86b-a7519dc4c94d)
 
--RegistroCategoriaForwardingServlet:
+- RegistroCategoriaForwardingServlet:
 
 ![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/1a1dc5c7-a6e0-4a91-8ce1-7858d676fe6f)
 
--RegistroProductoForwardingServlet:
+- RegistroProductoForwardingServlet:
 
 ![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/a55c79ca-9c69-46ea-9753-1ebc1076018c)
 
-por ultimo a cada vista le agrege el nombre de la direccion en un atributo href de la etiqueta a
+por ultimo a cada vista le agrege el nombre de la direccion en un atributo href de la etiqueta a:
+
+- index.jsp
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/383b434c-e65d-4b89-b760-98d7cb490031)
+
+- registro.jsp
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/488d4651-93f6-4271-ab25-19a8ee363377)
+
+- registro_categoria.jsp y registro_producto.jsp
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/afa2149c-0408-43b2-b7c9-9c4381e42a6e)
+
+por ultimo este es el resultado de cada una de las vistas:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/eb4e9d64-ae42-48d3-8a8e-fbb887b754a5)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/6da59d85-ecbb-4b7f-8ab0-786298984bb2)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/11955bd0-3b27-42a1-9d0b-053a1e0aab40)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/e679c0d4-f19d-42db-8c42-a5bb447c6af3)
+
+
 
