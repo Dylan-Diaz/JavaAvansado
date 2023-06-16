@@ -34,6 +34,21 @@ El label y el input de la primera etiqueta div class=mb-3 indique al usuario su 
 
 -pattern para indicar los patrones escritura que se permitiran en el campo.
 
+# Taller 2 y 3
+
+# proyect-two
+
+# Dylan Diaz ficha: 2687351
+
+En esta evidencia cree las vistas de login y registro de usuarios del proyecto, a demas de crear la conexion a base de datos y la clase bean. Primero diseñe las interfaces:
+
+- Vista login:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/dd8f1344-94ff-441e-8087-4df749c24df4)
+
+- Vista registro:
+  
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/ab6ca4ed-c678-43a1-ae0f-3c26d6f739a4)
 
 
 # Evidencia dia 7/5/2023
