@@ -50,6 +50,19 @@ En esta evidencia cree las vistas de login y registro de usuarios del proyecto, 
   
 ![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/ab6ca4ed-c678-43a1-ae0f-3c26d6f739a4)
 
+despues cree la conexion a la base de datos dentro de la carpeta util usando una clase DBConnection:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/b714918e-3b48-4add-bfe2-078d099486de)
+
+Por ultimo cree la clase User y dentro de ella cree sus respectivos atrivutos mas los metodos constructor, getders y setders, y toString:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/c59c68e1-5975-4ca6-a3e3-811df436a478)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/9ef7e398-f84e-436a-9d6e-4feb6947ed8c)
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/db30a7c4-2c58-4d40-b1e9-c8403de30395)
+
+
 
 # Evidencia dia 7/5/2023
 
@@ -61,14 +74,29 @@ En esta evidencia cree las vistas de login y registro de usuarios del proyecto, 
 
 #Descripcion:
 
-En este proyecto complementamos los formularios de login y registro de nuestra app con las clases en java para conectarnos a la base de datos.Creamos 4 diferentes tipos de conectores en la carpeta util y 2 clases Use
+En este proyecto complemente los formularios de login y registro de nuestra app con las clases en java para conectarnos a la base de datos. Primero cree 3 diferentes tipos de conectores en la carpeta util:
 
-
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/129524bb-69cf-4c8a-b5a8-408dd907c4a5)
 
 para poder ejecutar el codigo de la base de datos Mysql desde la app.En cada clase Connection utilizamos la clase main y ingresamos el usuario y la contraseña de la base de datos para poder acceder a ella.
 
-En el servidor de base de datos creamos una nueva base llamada "my_app" y creamos una tabla llamada "users_tbl", en esta tabla creamos 5 atributos los cuales son: user_id(esta es la llave primaria), user_firstname, user_lastname, user_email y user_password, los atributos que solicitamos en las clases de la carpeta util son user_firstname y user_lastname. 
+- BasicConnection:
 
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/95a5ff47-ba05-48ba-a9ee-aab1be78db5d)
+
+-BasicConnectionSingleton:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/6c307d36-543d-4be3-8e21-32275f85a389)
+
+-BasicConnectionWithResources:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/2b777f1f-70b3-4515-8f0d-2fe9f1b49c45)
+
+En el servidor de base de datos creamos una nueva base llamada "my_app" y creamos una tabla llamada "users_tbl", en esta tabla creamos 5 atributos:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/e69e0fd8-15e3-432c-bb66-c136d30c8785)
+
+Despues alteramos el tipo de atributo user_password, e insertamos un registro con una contraseña encriptada:
 
 # Evidencia dia 17/05/2023
 
