@@ -98,6 +98,38 @@ En el servidor de base de datos creamos una nueva base llamada "my_app" y creamo
 
 Despues alteramos el tipo de atributo user_password, e insertamos un registro con una contraseña encriptada:
 
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/178ce5e1-a801-4736-8933-6f345570d6fe)
+
+luego consulte todos los registros de la tabla "users_tbl" incluyendo la contraseña desencriptada:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/7be1f38c-443b-48a4-ad0b-c5bb8cd8b49a)
+
+Ahora cree en el directorio "repository" la clase UsersRepositoryImpl para implementar todos los metodos de la anterior clase User:
+
+- ListAllObj:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/8542139f-0e85-42b5-b726-f033a5533e9c)
+
+-byIdObj:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/8a86e3ac-023f-4b84-a111-9bf7eaea60d6)
+
+-saveObj:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/763b3865-aeba-4659-b586-1865fffbd0b5)
+
+-deleteObj:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/efbb1dc1-1451-49b4-a029-df05f80ffde4)
+
+-createObj:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/2a319079-a696-4485-840d-855edd75d345)
+
+Por ultimo ejecutamos una de las clases Connection:
+
+![image](https://github.com/Dylan-Diaz/JavaAvanzado/assets/128426097/4d4fdb00-3cd3-445e-b19e-970f242c46f3)
+
 # Evidencia dia 17/05/2023
 
 # Proyect-two - Taller 6
